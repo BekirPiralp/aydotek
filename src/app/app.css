@@ -5,6 +5,9 @@
     --app-th-color-blue: #3399FF;
     --app-th-color-gray: #666666;
     --app-th-color-white: #FFFFFF;
+
+    --app-th-font-family: 'Times New Roman', Times, serif;
+    --app-th-tt-font-weight: bold; /* app thema title font weight*/
 }
 
 
