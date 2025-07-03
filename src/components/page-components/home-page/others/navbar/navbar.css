@@ -92,3 +92,48 @@ hr {
         background-color: var(--app-th-color-blue);
     }
 }
+
+
+.active {
+    color: var(--app-th-color-blue) !important;
+    transition: none;
+
+    font-weight: bold;
+}
+
+.active:hover{
+    color: var(--app-th-color-gray) !important;
+    transition: none;
+}
+
+.active::after {
+    content: '';
+
+    position: absolute;
+
+    width: 100%;
+    height: 2px;
+    bottom: -10px;
+    left: 0px;
+
+    border-radius: 50%;
+    transform: scaleX(1);
+    transform-origin: left;
+    background-color: var(--app-th-color-blue);
+}
+
+.active:hover::after {
+    content: '';
+
+    position: absolute;
+
+    width: 100%;
+    height: 2px;
+    bottom: -10px;
+    left: 0px;
+
+    border-radius: 50%;
+    transform: scaleX(1);
+    transform-origin: left;
+    background-color: var(--app-th-color-gray);
+}
