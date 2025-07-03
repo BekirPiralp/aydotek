@@ -1,13 +1,13 @@
 <ng-template #thenBlock>
     <section id='{{this._sectionId}}'>
-        <div class="screen">
+        <div class="screen" [ngClass]="_class" [style]="_style">
             <ng-content></ng-content>
         </div>
     </section>
 </ng-template>
 
-<ng-template #elseBlock>
-    <div class="screen">
+<ng-template style="display: flex;" #elseBlock>
+    <div class="screen" [ngClass]="_class" [style]="_style">
         <ng-content></ng-content>
     </div>
 </ng-template>

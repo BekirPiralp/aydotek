@@ -1,4 +1,13 @@
-.screen{
+:host {
+    --window-height: 700px;
+    display: block;
     width: 100%;
-    min-height: 720px;
+    height: var(--window-height);
 }
+
+.screen {
+    display: block;
+    width: 100%;
+    height: var(--window-height);
+}
+

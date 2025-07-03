@@ -7,13 +7,20 @@ import { CommonModule } from '@angular/common';
     CommonModule,
   ],
   templateUrl: './screen.html',
-  styleUrl: './screen.css'
+  styleUrl: './screen.css',
 })
 export class Screen {
   public readonly _sectionId: string | undefined;
 
-  constructor(@Attribute('section-id')  sectionId?: string) {
+  public readonly _style: string;
+  public readonly _class: string;
+
+  constructor(@Attribute('section-id')  sectionId?: string,
+    @Attribute('style') _style?:string,
+    @Attribute('class') _class?:string) {
     this._sectionId = sectionId ?? undefined;
+    this._style = _style ?? '';
+    this._class = _class ?? '';
   }
 
 }
