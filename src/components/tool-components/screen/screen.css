@@ -1,5 +1,5 @@
 :host {
-    --window-height: 700px;
+    --window-height: 650px;
     display: block;
     width: 100%;
     height: var(--window-height);
