@@ -1,0 +1,36 @@
+h2{
+    color:var(--app-th-color-blue);
+    font-family: var(--app-th-font-family);
+    font-weight: var(--app-th-tt-font-weight);
+    letter-spacing: 5px;
+}
+
+p{
+    font-style: italic;
+    font-size: larger;
+    color: var(--app-th-color-gray);
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+.image{
+    position: relative;
+}
+
+.image img{
+    width: 450px;
+    height: 250px;
+
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px var(--app-th-color-gray);
+}
+
+.image.img1 img{
+    box-shadow: 5px 5px 10px var(--app-th-color-blue) !important;
+}
+
+.box{
+    font-family: var(--app-th-font-family);
+    font-weight: var(--app-th-tt-font-weight);   
+    align-content: center;
+}
