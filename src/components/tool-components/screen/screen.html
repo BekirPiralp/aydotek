@@ -1,15 +1,3 @@
-<ng-template #thenBlock>
-    <section id='{{this._sectionId}}'>
-        <div class="screen" [ngClass]="_class" [style]="_style">
-            <ng-content></ng-content>
-        </div>
-    </section>
-</ng-template>
-
-<ng-template style="display: flex;" #elseBlock>
-    <div class="screen" [ngClass]="_class" [style]="_style">
-        <ng-content></ng-content>
-    </div>
-</ng-template>
-
-<div *ngIf="this._sectionId; then thenBlock ;else elseBlock"></div>
+<div class="screen" [ngClass]="_class" [style]="_style">
+    <ng-content [_sectionId]></ng-content>
+</div>

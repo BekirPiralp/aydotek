@@ -10,15 +10,11 @@ import { CommonModule } from '@angular/common';
   styleUrl: './screen.css',
 })
 export class Screen {
-  public readonly _sectionId: string | undefined;
-
   public readonly _style: string;
   public readonly _class: string;
 
-  constructor(@Attribute('section-id')  sectionId?: string,
-    @Attribute('style') _style?:string,
+  constructor(@Attribute('style') _style?:string,
     @Attribute('class') _class?:string) {
-    this._sectionId = sectionId ?? undefined;
     this._style = _style ?? '';
     this._class = _class ?? '';
   }
