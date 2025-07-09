@@ -1,0 +1,26 @@
+.contanier,*{
+    color: var(--app-th-color-white);
+}
+
+h2{
+    color: var(--app-th-color-blue);
+    font-weight: var(--app-th-tt-font-weight);
+    letter-spacing: 5px;
+    font-family: var(--app-th-font-family);
+}
+
+p{
+    font-size: larger;
+    letter-spacing: 1px;
+    text-wrap: 1px;
+    text-align: justify;
+}
+
+.ozlu-soz{
+    font-family: var(--app-th-font-family);
+    text-transform: uppercase;
+    font-size: x-large;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-align: center;
+}
