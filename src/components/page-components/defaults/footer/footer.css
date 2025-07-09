@@ -1,0 +1,17 @@
+.footer{
+    height: 60px;
+    color: var(--app-th-color-white);
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+a{
+    color: var(--app-th-color-white);
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 50%;
+}
+
+a:hover{
+    opacity: 100%;
+}
