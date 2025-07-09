@@ -1,0 +1,47 @@
+.iletisim {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    background-color: var(--app-th-color-white);
+}
+
+.harita {
+    width: 360px !important;
+    height: 200px !important;
+
+    overflow: hidden;
+}
+
+.bilgiler {
+    font-weight: var(--app-th-tt-font-weight);
+}
+
+.bilgiler a {
+    text-decoration: none;
+    color: var(--app-th-color-blue);
+    letter-spacing: 1px;
+}
+
+.hizli-erisim {
+    text-align: center;
+    font-style: italic;
+    color: var(--app-th-color-gray);
+}
+
+.hizli-erisim a {
+    color: var(--app-th-color-gray);
+    text-decoration: none;
+    font-size: larger;
+}
+
+.hizli-erisim li {
+    text-align: left !important;
+}
+
+.hizli-erisim li:hover {
+    color: var(--app-th-color-blue)
+}
+
+.hizli-erisim a:hover {
+    color: var(--app-th-color-blue)
+}
