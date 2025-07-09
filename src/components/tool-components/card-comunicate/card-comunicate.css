@@ -1,0 +1,19 @@
+.card-communicate{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: start;
+    align-content: center;
+}
+.img{
+    display: flex;
+    width: 42px !important;
+    height: 42px !important;
+    object-fit: fill;
+}
+.descript{
+    margin-left: 10px;
+    text-align: left;
+    align-content: center;
+}
