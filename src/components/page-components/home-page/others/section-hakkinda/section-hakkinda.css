@@ -24,3 +24,9 @@ p{
     letter-spacing: 3px;
     text-align: center;
 }
+
+@media (max-width:1000px) {
+    .container{
+        margin: 3rem auto !important;
+    }
+}
