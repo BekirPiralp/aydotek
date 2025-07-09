@@ -11,3 +11,9 @@
     height: var(--window-height);
 }
 
+@media ( max-width: 1000px ) {
+    :host
+    {
+        --window-height: auto;
+    }
+}
