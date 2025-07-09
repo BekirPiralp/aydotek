@@ -3,3 +3,7 @@
     background-color: var(--app-th-color-gray);
 
 }
+.iletisim{
+    display: block;
+    width: 100%;
+}
