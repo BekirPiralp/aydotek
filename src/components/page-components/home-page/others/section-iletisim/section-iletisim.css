@@ -45,3 +45,51 @@
 .hizli-erisim a:hover {
     color: var(--app-th-color-blue)
 }
+
+@media (max-width:1000px) {
+    .iletisim{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .harita{
+        display: flex;
+        width: 100% !important;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+    .bilgiler{
+        align-items: center ;
+        margin: 1.5rem auto ;
+    }
+    .hizli-erisim li{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hizli-erisim ul {
+        height: 100%;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    h3{
+        display:inline-block;
+        width: 100%;
+    }
+    /* .hizli-erisim{
+        margin-bottom: 3rem; 
+    } */
+
+    tool-card-comunicate{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:490px) {
+    .hizli-erisim ul {
+        flex-direction: column;
+    }    
+}
