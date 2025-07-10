@@ -2,6 +2,7 @@
     --window-height: 650px;
     display: block;
     width: 100%;
+    max-width: 1920px;
     height: var(--window-height);
 }
 
