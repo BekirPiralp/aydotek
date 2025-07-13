@@ -65,9 +65,9 @@ Component mimarisi ile ihtiyaçları en alt parçalara bölme ve yönetme göz �
 - 4k gibi geniş ekranlar
 
 ## Erişim
-Linkedin [linkedin.com/in/bekirpiralp](linkedin.com/in/bekirpiralp)
+Linkedin [linkedin.com/in/bekirpiralp](https://linkedin.com/in/bekirpiralp)
 
-Mail [bekir01piralp@gmail.com](bekir01piralp@gmail.com)
+Mail [bekir01piralp@gmail.com](mailto://bekir01piralp@gmail.com)
 
 İncelemek isteyenler için:
-    [aydotek.com.tr](aydotek.com.tr)
+    [aydotek.com.tr](https://aydotek.com.tr)
