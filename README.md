@@ -71,3 +71,11 @@ Mail [bekir01piralp@gmail.com](mailto:bekir01piralp@gmail.com)
 
 İncelemek isteyenler için:
     [aydotek.com.tr](https://aydotek.com.tr)
+
+## 📄 Lisans (License)
+
+Bu proje özel mülkiyettir. Tüm hakları saklıdır.
+
+Kodun tamamı Bekir PİRALP'e aittir ve izinsiz olarak kullanılamaz, kopyalanamaz, değiştirilemez veya dağıtılamaz.
+
+© 2025 Bekir PİRALP – All Rights Reserved.
