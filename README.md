@@ -21,7 +21,7 @@ Component mimarisi ile ihtiyaçları en alt parçalara bölme ve yönetme göz �
     - Taslak sayesinde yazıların sitilleri ve yerleri belirlendi
     - Resimlerin yerleri ile şekilleri belirlendi
     - Vurucu cümleler seçildi
-    ![WareFrame](/web%20dessing/Aydotek%20web%20dessing.svg)
+    ![WareFrame](/web%20dessing/Aydotek%20web%20dessing.jpg)
 
 ## Uyumluluk
 - Normal Masaüstü ekranlar
