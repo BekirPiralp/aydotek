@@ -10,3 +10,7 @@
     display: block;
     width: 100%;
 }
+section{
+    display: flex;
+    justify-content: center;
+}
