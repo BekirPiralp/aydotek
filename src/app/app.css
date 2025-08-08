@@ -1,5 +1,5 @@
-:root {
-  --background-image-url: none;
+:root,* {
+    --background-image-url: url("/assets/background/job-3.jpg");
 
 
     --app-th-color-blue: #3399FF;
@@ -16,7 +16,7 @@
     min-height: 100vh;
     background-image: var(--background-image-url);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size:cover;
     background-attachment:fixed;
     background-position: center;
     background-origin: border-box;
